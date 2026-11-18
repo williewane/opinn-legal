@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Opinn — Home</title>
+<style>
+  :root {
+    --text-primary: #111827;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+    --border: #E5E7EB;
+    --accent: #2563EB;
+    --bg: #FAFAFA;
+    --surface: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.65;
+  }
+  .wrapper {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 36px;
+  }
+  .brand-mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #111827, #2563EB);
+    flex-shrink: 0;
+  }
+  .brand-name {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin: 0 0 6px;
+  }
+  .updated {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: -0.2px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 6px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 6px;
+  }
+  strong {
+    color: var(--text-primary);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-primary);
+    font-weight: 700;
+    background: var(--surface);
+  }
+  td {
+    color: var(--text-secondary);
+  }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
+  }
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-top: 28px;
+  }
+  .contact-card a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 56px;
+    color: var(--text-muted);
+    font-size: 13px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <div class="brand-name">Opinn</div>
+    </div>
+
+    <h1>Opinn</h1>
+    <div class="updated">Wholesale ordering for retailers and wholesalers in Ghana</div>
+
+    <p>Opinn helps independent wholesalers manage their shop, products, and orders, and helps retailers browse a wholesaler's shop and place orders from their phone.</p>
+
+    <h2>Policies and help</h2>
+    <ul>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+      <li><a href="delete-account.html">Delete your account</a></li>
+    </ul>
+
+    <div class="contact-card">
+      <strong>Contact us</strong><br />
+      <a href="mailto:opinnapp@gmail.com">opinnapp@gmail.com</a>
+    </div>
+    <footer>© Opinn · All rights reserved</footer>
+  </div>
+</body>
+</html>
